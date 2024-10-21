@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme without ActionBar -->
+    <style name="Base.Theme.MyTabLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item> <!-- Warna biru untuk primary color -->
+        <item name="colorOnPrimary">@android:color/white</item> <!-- Warna teks di atas primary color -->
+        <item name="tabBackground">@color/white</item> <!-- Warna background TabLayout -->
+        <item name="tabTextColor">@color/blue</item> <!-- Warna teks tab -->
+        <item name="tabSelectedTextColor">@color/blue</item> <!-- Warna teks saat tab terpilih -->
+    </style>
+
+    <!-- Base application theme with ActionBar -->
+    <style name="Base.Theme.MyTabLayout.WithActionBar" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/blue</item> <!-- Warna biru untuk primary color -->
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="tabBackground">@color/blue</item>
+        <item name="tabTextColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+    <!-- Themes to apply directly to activities or the entire application -->
+    <style name="Theme.MyTabLayout" parent="Base.Theme.MyTabLayout" />
+    <style name="Theme.MyTabLayout.WithActionBar" parent="Base.Theme.MyTabLayout.WithActionBar" />
+</resources>

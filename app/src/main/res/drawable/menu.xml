@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/blue" /> <!-- Latar belakang biru -->
+    <corners android:radius="4dp" /> <!-- Sudut membulat (opsional) -->
+</shape>

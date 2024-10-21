@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/husername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Dashboard!"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/foto"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How are you doing today?"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☹"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/red"
+            android:elevation="5dp"
+            app:cornerRadius="10dp"
+            android:padding="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☺"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/hijau"
+            android:elevation="5dp"
+            app:cornerRadius="10dp"
+            android:padding="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/rusername"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:gravity="start"
+        android:textColor="@color/tulisan"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/person"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_shape"
+        android:elevation="5dp"
+        app:cornerRadius="10dp"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/remail"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:gravity="start"
+        android:textColor="@color/tulisan"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/email"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_shape"
+        android:elevation="5dp"
+        app:cornerRadius="10dp"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/rphone"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:gravity="start"
+        android:textColor="@color/tulisan"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_shape"
+        android:elevation="5dp"
+        app:cornerRadius="10dp"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/rpassword"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="start"
+        android:textColor="@color/tulisan"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/lock"
+        android:drawableEnd="@drawable/eye_icon_close"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_shape"
+        android:elevation="5dp"
+        app:cornerRadius="10dp"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        />
+
+    <CheckBox
+        android:id="@+id/terms_checkbox"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="By checking the box you agree to our Terms and Conditions."
+        android:layout_marginBottom="100dp"
+        android:textSize="10sp"
+        android:paddingStart="16dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_register"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/blue"
+        android:elevation="5dp"
+        app:cornerRadius="10dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Already have an account? Log in"
+        android:textSize="12sp" />
+</LinearLayout>

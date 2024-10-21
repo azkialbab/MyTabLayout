@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme without ActionBar -->
+    <style name="Base.Theme.MyTabLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item> <!-- Warna biru untuk primary color -->
+        <item name="colorOnPrimary">@android:color/white</item> <!-- Warna teks di atas primary color -->
+        <item name="tabBackground">@color/white</item> <!-- Warna background TabLayout -->
+        <item name="tabTextColor">@color/blue</item> <!-- Warna teks tab -->
+        <item name="tabSelectedTextColor">@color/blue</item> <!-- Warna teks saat tab terpilih -->
+    </style>
+    <style name="MyActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item> <!-- Warna teks putih -->
+    </style>
+
+    <!-- Base application theme with ActionBar -->
+    <style name="Base.Theme.MyTabLayout.WithActionBar" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here, similar to the theme without ActionBar. -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Themes that can be applied to the application or specific activities -->
+    <style name="Theme.MyTabLayout" parent="Base.Theme.MyTabLayout" />
+    <style name="Theme.MyTabLayout.WithActionBar" parent="Base.Theme.MyTabLayout.WithActionBar" />
+</resources>
